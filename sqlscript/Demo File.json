@@ -1,0 +1,20 @@
+{
+	"name": "Demo File",
+	"properties": {
+		"folder": {
+			"name": "demo"
+		},
+		"content": {
+			"query": "SELECT 100;\n\n--Para revisar cuantos mb han sido procesados por dia, semana y mes--\nselect * from sys.dm_external_data_processed",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "master",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
